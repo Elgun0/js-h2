@@ -1,0 +1,40 @@
+#test{
+    margin-top: 40px;
+    height: 70vh;
+    .test-item{
+        .myBtn{
+            display: flex;
+            justify-content: center;
+            padding: 10px 40px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            background: brown;
+            color: #fff;
+        }
+        .test-txt{
+            margin:20px 0;
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+    }
+}
+
+// Test end
+// Second start
+#second{
+    .all-p{
+        display: none;
+        p{
+            font-size: 30px;
+            display: flex;
+            font-weight: 700;
+            color: red;
+        }
+    }
+    .all-p.active{
+        display: block;
+    }
+}
